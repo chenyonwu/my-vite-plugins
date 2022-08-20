@@ -9,10 +9,43 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "@icon-park/vue-next": "^1.4.2",
+    "@vueuse/core": "^9.1.0",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.5",
+    "element-plus": "^2.2.14",
+    "file-saver": "^2.0.5",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.20",
+    "pinia-plugin-persistedstate": "^2.1.1",
+    "vue": "^3.2.37",
+    "vue-router": "4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@vitejs/plugin-legacy": "^2.0.1",
     "@vitejs/plugin-vue": "^3.0.3",
-    "vite": "^3.0.7"
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "autoprefixer": "^10.4.8",
+    "commitizen": "^4.2.5",
+    "cross-env": "^7.0.3",
+    "fast-glob": "^3.2.11",
+    "husky": "^8.0.1",
+    "increase-memory-limit": "^1.0.7",
+    "lint-staged": "^13.0.3",
+    "node-html-parser": "5.4.2-0",
+    "postcss": "^8.4.16",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.4",
+    "sass": "^1.54.5",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.9",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-windicss": "^1.8.7",
+    "vue-qr": "^4.0.9",
+    "windicss": "^3.5.6"
   }
 }
